@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+puts "Using Ruby #{RUBY_VERSION}"
+require File.expand_path(File.dirname(__FILE__) + '/../config/boot')
+require 'commands/server'
